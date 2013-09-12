@@ -1,4 +1,4 @@
-project(eeg_modular)
+project(eeg_modular_python)
 set(CMAKE_CXX_FLAGS "-DNDEBUG -O3 -std=c++0x")
 cmake_minimum_required(VERSION 2.8)
 SET(SRC_LIST main.cpp utils.cpp eeg_receiver.cpp gnuplot.cpp statescoremachine.cpp)
